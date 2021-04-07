@@ -1,11 +1,11 @@
 from unittest import skip
 
-from django.test import TestCase
 from django.contrib.auth.models import User
-from store.models import Category, Product
+from django.test import TestCase
 from django.test.client import Client
 
-from store.models import Category, Product 
+from store.models import Category, Product
+
 
 class TestViewResponses(TestCase):
     def setUp(self):
